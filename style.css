@@ -1,6 +1,10 @@
 header{
+    background-color: black;
     color:red;
 }
 body{
     background-color: blueviolet;
+}
+footer{
+    background-color: blue;
 }
