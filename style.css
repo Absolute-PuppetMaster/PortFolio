@@ -1,16 +1,15 @@
+:root{
+    --primary-bg:red;
+   --secondary-bg:violet;
+   --primary-color:blueviolet;
+  --secondary-color:pink;
+  --padding-default:24px;
+  --padding-narrow:12px;
+}
 body{
-    background-color: blueviolet;
-    color: white;
-    font-family: 'TogebaraMedium';
+    margin:0px;
 }
-header{
-    background-color: black;
-    color:red;
-}
-footer{
-    background-color: blue;
-    color: white;
-}
-.menubar{
-    background-color: white;
+img{
+    width:20%;
+    height: 20%;
 }
