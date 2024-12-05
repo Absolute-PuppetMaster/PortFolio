@@ -35,6 +35,9 @@ main #main-latestwork{
     background-color: var(--primary-bg);
     font-family: var(--primary-Font);
 }
+main #main-latestwork img{
+    width: 20%;
+}
 .work-latestwork{
 position: relative;
 }
