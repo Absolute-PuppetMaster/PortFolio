@@ -17,3 +17,9 @@ header{
     color: var(--primary-color);
     background-color: var(--primary-bg);
 }
+#logo{
+    width:195px;
+}
+main{
+    color: blueviolet;
+}
