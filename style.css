@@ -1,5 +1,5 @@
 :root{
- --primary-bg:red;
+ --primary-bg:#F8ABA6;
 --secondary-bg:violet;
 --primary-color:blueviolet;
   --secondary-color:pink;
@@ -20,6 +20,9 @@ header{
 #logo{
     width:195px;
 }
-body{
-    color: blueviolet;
+main{
+}
+main #main-about{
+    color: var(--secondary-color);
+    background-color: var(--secondary-bg);
 }
