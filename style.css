@@ -21,7 +21,6 @@ header{
 }
 #logo{
     width:195px;
-    height: auto;
 }
 main{
     background-color: var(--secondary-color);
