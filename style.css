@@ -36,6 +36,10 @@ main #main-latestwork{
     font-family: var(--primary-Font);
     position: relative;
 }
+main #main-latestwork img{
+    width:25%;
+    height: 25%;
+}
 .work-genre, .work-title{
     position: absolute;
 }
