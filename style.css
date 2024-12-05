@@ -29,4 +29,5 @@ main #main-about{
 main #main-latestwork{
     color:var(--primary-color);
     background-color: var(--primary-bg);
+    font-family: 'TogebaraMedium';
 }
