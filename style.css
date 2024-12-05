@@ -1,8 +1,8 @@
 :root{
  --primary-bg:#F8ABA6;
---secondary-bg:violet;
---primary-color:blueviolet;
-  --secondary-color:pink;
+--secondary-bg:#18ABA7;
+--primary-color:#112233;
+  --secondary-color:#334455;
   --padding-default:24px;
   --padding-narrow:12px;
 }
@@ -25,4 +25,8 @@ main{
 main #main-about{
     color: var(--secondary-color);
     background-color: var(--secondary-bg);
+}
+main #main-latestwork{
+    color:var(--primary-color);
+    background-color: var(--primary-bg);
 }
