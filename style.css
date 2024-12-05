@@ -41,3 +41,10 @@ main #main-latestwork-title{
 main #main-latestwork-images{
     padding:var(--padding-narrow);
 }
+main #main-images{
+    display:flex;
+    flex-wrap: wrap;
+}
+main #main-images img{
+    width: 50%;
+}
