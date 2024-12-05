@@ -27,9 +27,13 @@ main{
 main #main-about{
     color: var(--secondary-color);
     background-color: var(--secondary-bg);
+    padding:var(--padding-default);
 }
 main #main-latestwork{
     color:var(--primary-color);
     background-color: var(--primary-bg);
     font-family: var(--primary-Font);
+}
+main #main-latestwork-images{
+    padding:var(--padding-narrow);
 }
