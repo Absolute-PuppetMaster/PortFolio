@@ -47,5 +47,5 @@ main #main-images{
     flex-wrap: wrap;
 }
 main #main-images img{
-    width: 50%;
+    width:25%;
 }
