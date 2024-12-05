@@ -5,6 +5,7 @@
   --secondary-color:#334455;
   --padding-default:24px;
   --padding-narrow:12px;
+  --primary-Font:'TogebaraMedium';
 }
 body{
     margin:0px;
@@ -15,6 +16,7 @@ img{
 header{
     color: var(--primary-color);
     background-color: var(--primary-bg);
+    font-family: var(--primary-Font);
 }
 #logo{
     width:195px;
@@ -29,5 +31,5 @@ main #main-about{
 main #main-latestwork{
     color:var(--primary-color);
     background-color: var(--primary-bg);
-    font-family: 'TogebaraMedium';
+    font-family: var(--primary-Font);
 }
