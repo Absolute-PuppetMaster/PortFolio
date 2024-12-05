@@ -1,5 +1,6 @@
 body{
     background-color: blueviolet;
+    color: white;
 }
 header{
     background-color: black;
@@ -7,6 +8,7 @@ header{
 }
 footer{
     background-color: blue;
+    color: white;
 }
 .menubar{
     background-color: white;
