@@ -33,7 +33,32 @@ main #main-about{
 main #main-latestwork{
     color: var(--primary-color);
     background-color: var(--primary-bg);
-    padding:var(--padding-default);
+    padding:var(--padding-narrow);
+    position:relative;
+}
+.work-genre, .work-title{
+    position: absolute;
+}
+.work-genre{
+    bottom:60px;
+    left:12px;
+    background-color: white;
+    color:var(--secondary-color);
+    font-size:12px;
+    padding:4px 24px;
+    border-radius:24px;
+}
+.work-title{
+    bottom:24px;
+    left:12px;
+    font-weight: bold;
+}
+main #main-images{
+    display:flex;
+    flex-wrap:wrap;
+}
+main #main-images img{
+    width:50%;
 }
 footer{
     color: var(--primary-color);
