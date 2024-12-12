@@ -61,6 +61,43 @@ main #main-images img{
     width:50%;
 }
 footer{
+    padding-top:40px;
     color: var(--primary-color);
     background-color: var(--primary-bg);
+    font-size:12px;
+    padding-left:var(--padding-footer);
+    padding-right:var(--padding-footer);
+}
+footer hr{
+    border-color: rgba(255,255,255,0.2);
+    margin-bottom:12px ;
+}
+#footer-title{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:24px;
+}
+.footer-menu{
+    margin:36px;
+}
+.footer-menu-title{
+    color:var(--teritiary-color);
+    margin-bottom:24px;
+}
+.footer-menu-item{
+    margin-bottom:8px;
+}
+#footer-sns{
+    margin-bottom:24px;
+}
+.sns-icon{
+    width:24px;
+}
+#footer-title,#footer-menus,#footer-sns{
+    text-align: center;
+}
+#footer-sub{
+    text-align: center;
+    font-size:9px;
+    padding-bottom: var(--padding-narrow);
 }
