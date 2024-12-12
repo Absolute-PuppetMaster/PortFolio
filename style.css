@@ -20,7 +20,7 @@ header{
     padding:var(--padding-default);
 }
 header #header-catch-img{
-    padding: 0;
+    width:120%;
 }
 #logo{
     width:195px;
