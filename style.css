@@ -202,3 +202,18 @@ z-index:99;
 background: var(--primary-bg);
 color:var(--primary-color)
 }
+.nav_content a,
+.nav_content a:link,
+  .nav_content a:hover,
+  .nav_content a:active {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  #drawer_input:checked~.nav_content{
+    left:0;
+  }
+  @media(min-width:768px){
+    #menubar-mobile{
+        display:none;
+    }
+  }
