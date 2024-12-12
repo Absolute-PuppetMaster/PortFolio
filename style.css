@@ -63,7 +63,7 @@ main #main-images img{
 footer{
     padding-top:40px;
     color: var(--primary-color);
-    background-color: var(--primary-bg);
+    background-color: var(--secondary-bg);
     font-size:12px;
     padding-left:var(--padding-footer);
     padding-right:var(--padding-footer);
