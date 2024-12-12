@@ -1,5 +1,5 @@
 :root{
- --primary-bg:#33F33F;
+ --primary-bg:#A260BF;
 --secondary-bg:#18ABA7;
 --primary-color:#112233;
   --secondary-color:#335577;
@@ -18,9 +18,6 @@ header{
     background-color: var(--primary-bg);
     font-family: var(--primary-Font);
     padding:var(--padding-default);
-}
-.menubar{
-    background-color: blueviolet;
 }
 #logo{
     width:50px;
