@@ -183,7 +183,7 @@ position: absolute;
     top:8px;
 }
 #drawer_input:checked ~ .drawer_open span{
-    background: rgba(125,125,105,1);
+    background: rgba(125,125,105,0);
 }
 #drawer_input:checked ~ .drawer_open span::before{
     bottom: 0;
@@ -201,7 +201,8 @@ top:0;
 left:100%;
 z-index:99;
 background: var(--primary-bg);
-color:var(--primary-color)
+color:var(--primary-color);
+transition: .5s;
 }
 .nav_content a,
 .nav_content a:link,
@@ -209,6 +210,9 @@ color:var(--primary-color)
   .nav_content a:active {
     color: var(--primary-color);
     text-decoration: none;
+  }
+  .nav_list{
+    list-style: none;
   }
   #drawer_input:checked~.nav_content{
     left:0;
