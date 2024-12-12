@@ -101,3 +101,37 @@ footer hr{
     font-size:9px;
     padding-bottom: var(--padding-narrow);
 }
+@media(min-width:768px){
+    #header-catch{
+        display:flex;
+        flex-direction:row-reverse;
+    }
+    #header-catch-img,#header-catch-text{
+        padding:5px;
+    }
+}
+@media(min-width:768px){
+    #main-about{
+        display:flex;
+    }
+    #main-about-image,#main-about-text{
+        display:flex;
+        justify-content: space-between;
+    }
+    .main-latestwork{
+        flex-basis:33%;
+    }
+    main#main-images{
+        flex-wrap:nowrap;
+        justify-content: space-between;
+    }
+    main#main-images img{
+        width:16%;
+    }
+}
+@media(min-width:768px){
+    #footer-main,#footer-menus{
+        display:flex;
+        justify-content: space-between;
+    }
+}
