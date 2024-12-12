@@ -165,26 +165,26 @@ header{
     cursor: pointer;
 }
 .drawer_open span,
-.drawer_open span:before,
-.drawer_open span:after{
-content:'';
-display: block;
-height:3px;
-width:25px;
-border-radius:3px;
-background: white;
-transition: 0.5s;
-position: absolute;
-}
+  .drawer_open span:before,
+  .drawer_open span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background: white;
+    transition: 0.5s;
+    position: absolute;
+  }
 .drawer_open span:before{
-    bottom:8px;
+    bottom:　8px;
 }
 .drawer_open span:after{
-    top:8px;
+    top:　8px;
 }
-#drawer_input:checked ~ .drawer_open span{
-    background: rgba(125,125,105,0);
-}
+#drawer_input:checked ~ .drawer_open span {
+    background: rgba(255, 255, 255, 0);
+  }
 #drawer_input:checked ~ .drawer_open span::before{
     bottom: 0;
     transform:rotate(45deg);
@@ -205,7 +205,7 @@ color:var(--primary-color);
 transition: .5s;
 }
 .nav_content a,
-.nav_content a:link,
+  .nav_content a:link,
   .nav_content a:hover,
   .nav_content a:active {
     color: var(--primary-color);
