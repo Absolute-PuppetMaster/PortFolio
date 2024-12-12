@@ -130,8 +130,8 @@ footer hr{
     }
 }
 @media(min-width:768px){
-    #footer-main,#footer-menus{
-        display:flex;
+    #footer-main,　#footer-menus{
+        display:　flex;
         justify-content: space-between;
     }
 }
