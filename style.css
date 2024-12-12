@@ -19,6 +19,9 @@ header{
     font-family: var(--primary-Font);
     padding:var(--padding-default);
 }
+.menubar{
+    background-color: blueviolet;
+}
 #logo{
     width:50px;
 }
