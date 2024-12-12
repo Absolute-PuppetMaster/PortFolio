@@ -177,10 +177,10 @@ header{
     position: absolute;
   }
 .drawer_open span:before{
-    bottom:　8px;
+    bottom:8px;
 }
 .drawer_open span:after{
-    top:　8px;
+    top:8px;
 }
 #drawer_input:checked ~ .drawer_open span {
     background: rgba(255, 255, 255, 0);
