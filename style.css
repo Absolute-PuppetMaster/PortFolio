@@ -165,7 +165,8 @@ header{
     cursor: pointer;
 }
 .drawer_open span,
-.drawer_open span:before,.drawer_open span:after{
+.drawer_open span:before,
+.drawer_open span:after{
 content:'';
 display: block;
 height:3px;
@@ -182,7 +183,7 @@ position: absolute;
     top:8px;
 }
 #drawer_input:checked ~ .drawer_open span{
-    background: rgba(255,255,255,0);
+    background: rgba(125,125,105,1);
 }
 #drawer_input:checked ~ .drawer_open span::before{
     bottom: 0;
