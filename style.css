@@ -20,7 +20,7 @@ header{
     padding:var(--padding-default);
 }
 #logo{
-    width:50px;
+    width:25px;
 }
 main{
     background-color: #18ABA7;
