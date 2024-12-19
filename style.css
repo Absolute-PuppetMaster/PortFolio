@@ -30,11 +30,12 @@ main #main-about{
     background-color: var(--secondary-bg);
     padding:var(--padding-default);
 }
-main #main-latestwork{
+.main-latestwork{
     color: var(--primary-color);
     background-color: var(--primary-bg);
     padding:var(--padding-narrow);
     position:relative;
+    width:50%;
 }
 .work-genre, .work-title{
     position: absolute;
@@ -58,7 +59,7 @@ main #main-images{
     flex-wrap:wrap;
 }
 main #main-images img{
-    width:50%;
+    width:25%;
 }
 footer{
     padding-top:40px;
@@ -243,7 +244,7 @@ transition: .5s;
   #menubar a{
     text-decoration: none;
   }
-  menubar li a, #menubar li a:hover{
+  #menubar li a, #menubar li a:hover{
     color:　var(--primary-color);
   }
   #menubar button{
@@ -256,5 +257,5 @@ transition: .5s;
     text-align: center;
 }
 #main-secrets{
-    color:var(--secondary-bg)
+    color:var(--secondary-bg);
 }
