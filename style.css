@@ -252,3 +252,6 @@ transition: .5s;
     border:　1px solid white;
   }
 }
+#header-simple{
+    text-align: center;
+}
