@@ -3,6 +3,7 @@
 --secondary-bg:#18ABA7;
 --primary-color:#112233;
   --secondary-color:#335577;
+  --setumei-color:#227722;
   --padding-default:24px;
   --padding-narrow:12px;
   --primary-Font:'TogebaraMedium';
@@ -51,13 +52,15 @@ main #main-latestwork-images{
     background-color: white;
     color:var(--secondary-color);
     font-size:12px;
-    padding:4px 24px;
+    padding:8px 24px;
     border-radius:24px;
 }
 .work-title{
-    bottom:24px;
+    bottom:12px;
     left:12px;
+    background-color: white;
     font-weight: bold;
+    color:var(--setumei-color)
 }
 main #main-images{
     display:flex;
