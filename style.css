@@ -255,3 +255,6 @@ transition: .5s;
 #header-simple{
     text-align: center;
 }
+#main-secrets{
+    color:var(--secondary-bg)
+}
