@@ -30,12 +30,15 @@ main #main-about{
     background-color: var(--secondary-bg);
     padding:var(--padding-default);
 }
-main #main-latestwork{
+.main-latestwork{
     color: var(--primary-color);
     background-color: var(--primary-bg);
-    padding:var(--padding-narrow);
     position:relative;
     width: 100%;
+}
+main #main-latestwork-images{
+    display: flex;
+    justify-content: space-between;
 }
 .work-genre, .work-title{
     position: absolute;
