@@ -30,17 +30,17 @@ main #main-about{
     background-color: var(--secondary-bg);
     padding:var(--padding-default);
 }
-.main-latestwork{
-    position:relative;
-    width: 75%;
-}
 main #main-latestwork{
     color: var(--primary-color);
     background-color: var(--primary-bg);
+    position:relative;
+    width: 50%;
 }
 main #main-latestwork-images{
-    display: flex;
-    justify-content: space-between;
+    padding:var(--padding-narrow)
+}
+.main-latestwork{
+    position: relative;
 }
 .work-genre, .work-title{
     position: absolute;
@@ -126,6 +126,10 @@ footer hr{
     }
     .main-latestwork{
         flex-basis:33%;
+    }
+    .main-latestwork-images{
+        display: flex;
+        justify-content: space-between;
     }
     main#main-images{
         flex-wrap:　nowrap;
