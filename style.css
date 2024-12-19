@@ -30,12 +30,12 @@ main #main-about{
     background-color: var(--secondary-bg);
     padding:var(--padding-default);
 }
-.main-latestwork{
+main #main-latestwork{
     color: var(--primary-color);
     background-color: var(--primary-bg);
     padding:var(--padding-narrow);
     position:relative;
-    width:50%;
+    width: 100%;
 }
 .work-genre, .work-title{
     position: absolute;
@@ -59,7 +59,7 @@ main #main-images{
     flex-wrap:wrap;
 }
 main #main-images img{
-    width:25%;
+    width: 50%;
 }
 footer{
     padding-top:40px;
