@@ -273,3 +273,6 @@ transition: .5s;
     background-color: var(--secondary-bg);
    border: none;
 }
+#main-secrets-text{
+    color: red;
+}
