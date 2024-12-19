@@ -258,4 +258,6 @@ transition: .5s;
 }
 #main-secrets{
     color:var(--secondary-bg);
+    background-color: var(--secondary-bg);
+   border: none;
 }
