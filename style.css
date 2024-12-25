@@ -276,3 +276,6 @@ transition: .5s;
 #main-secrets-text{
     color: red;
 }
+.kensaku{
+    background-color:var(--primary-bg);
+}
