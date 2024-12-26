@@ -319,12 +319,10 @@ hr{
 }
 .kyoku{
     display: flex;
-    flex-wrap: wrap;
-    max-height: 100px;
+    max-height: 250px;
 }
 .music{
-    text-align: center;
     background-color: var(--midasi-color);
-    margin: auto;
-    padding: auto;
+    margin: 20%;
+    padding-left:50%;
 }
