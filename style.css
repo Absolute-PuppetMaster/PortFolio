@@ -324,5 +324,5 @@ hr{
 .music{
     background-color: var(--midasi-color);
     margin: 20%;
-    padding-left:50%;
+    padding:var(--padding-narrow);
 }
