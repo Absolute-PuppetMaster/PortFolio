@@ -325,6 +325,5 @@ hr{
 .music{
     text-align: center;
     background-color: var(--primary-bg);
-    margin: 20px;
-   padding:50%;
+   padding-left:50%;
 }
