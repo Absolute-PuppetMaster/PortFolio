@@ -27,7 +27,7 @@ h4{
     color:transparent;
     background-clip: text;
     background-image:linear-gradient(90deg,red,orange,yellow,green,blue,purple,violet,red);
-    background-size: 100%;
+    background-size: 25%;
 
 }
 #logo{
