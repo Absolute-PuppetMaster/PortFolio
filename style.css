@@ -285,3 +285,14 @@ transition: .5s;
 .douga{
     display: flex;
 }
+.jikosyoukai{
+    text-align: center;
+}
+h1{
+    color:red;
+    font-family: "TogebaraMedium";
+}
+h2{
+    color:white;
+    font-family: "TogebaraMedium";
+}
