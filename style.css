@@ -286,14 +286,5 @@ transition: .5s;
     display: flex;
 }
 .jikosyoukai{
-    text-align: center;
-}
-h1{
-    color:red;
-}
-h2{
-    color:white;
-}
-h3{
-    color: greenyellow;
+    color: white;
 }
