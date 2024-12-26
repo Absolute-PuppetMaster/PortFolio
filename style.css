@@ -304,3 +304,6 @@ h2{
 p{
     color: white;
 }
+hr{
+    border-top:2px double;
+}
