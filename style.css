@@ -326,5 +326,5 @@ hr{
     text-align: center;
     background-color: var(--primary-bg);
     margin: 20px;
-   padding:var(--padding-narrow);
+   padding:50%;
 }
