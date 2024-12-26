@@ -4,6 +4,7 @@
 --primary-color:#112233;
   --secondary-color:#335577;
   --setumei-color:#227722;
+  --midasi-color:#F067A1;
   --padding-default:24px;
   --padding-narrow:12px;
   --primary-Font:'TogebaraMedium';
@@ -16,9 +17,18 @@ img{
 }
 header{
     color: var(--primary-color);
-    background-color: var(--primary-bg);
+    background-color: var(--midasi-color);
     font-family: var(--primary-Font);
     padding:var(--padding-default);
+}
+h4{
+    text-align: center;
+    font-size: 45px;
+    color:transparent;
+    background-clip: text;
+    background-image:linear-gradient(90deg,red,orange,yellow,green,blue,purple,violet);
+    background-size: 100%;
+
 }
 #logo{
     width:50px;
@@ -154,7 +164,7 @@ header{
 #menubar-mobile{
     display: block;
     position: absolute;
-    top: 0px;
+    top: 10px;
 }
 #menubar-mobile{
     width:100%;
@@ -293,13 +303,4 @@ h2{
 }
 p{
     color: white;
-}
-.news{
-    background-color: white;
-}
-.midasi{
-    font-size: 45px;
-    color:transparent;
-    background-clip: text;
-    background-image:linear-gradient(90deg,red,orange,yellow,green,blue,purple,violet);
 }
