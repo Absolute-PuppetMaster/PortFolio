@@ -324,7 +324,7 @@ hr{
 }
 .music{
     text-align: center;
-    background-color: aliceblue;
+    background-color: var(--primary-bg);
     margin: 20px;
-    padding: 20px;
+   padding:var(--padding-narrow);
 }
