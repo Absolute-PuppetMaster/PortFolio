@@ -320,10 +320,9 @@ hr{
 .kyoku{
     display: flex;
     flex-wrap: wrap-reverse;
-    max-height: 200px;
+    max-height: 10px;
 }
 .music{
     text-align: center;
-    background-color: var(--primary-bg);
    padding-left:50%;
 }
