@@ -318,11 +318,4 @@ hr{
     border-top:5px double;
 }
 .kyoku{
-    display: flex;
-    max-height: 250px;
-}
-.music{
-    background-color: var(--midasi-color);
-    margin: 20%;
-    padding:var(--padding-narrow);
-}
+    text-align: center;}
