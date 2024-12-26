@@ -282,3 +282,6 @@ transition: .5s;
 .name1{
     background-color:var(--primary-bg);
 }
+.douga{
+    display: flex;
+}
