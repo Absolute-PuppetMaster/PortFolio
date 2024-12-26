@@ -285,8 +285,11 @@ transition: .5s;
 .douga{
     display: flex;
 }
-.jikosyoukai{
-    color: white;
+h1{
+    color: red;
+}
+h2{
+    color: greenyellow;
 }
 p{
     color: white;
