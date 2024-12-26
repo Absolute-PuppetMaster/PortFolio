@@ -324,7 +324,7 @@ hr{
 }
 .music{
     text-align: center;
-    background-color: var(--primary-bg);
+    background-color: var(--midasi-color);
     margin: auto;
     padding: auto;
 }
