@@ -297,3 +297,9 @@ p{
 .news{
     background-color: white;
 }
+.midasi{
+    font-size: 45px;
+    color:transparent;
+    background-clip: text;
+    background-image:linear-gradient(90deg,red,orange,yellow,green,blue,purple,violet);
+}
