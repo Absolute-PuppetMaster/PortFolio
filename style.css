@@ -292,8 +292,18 @@ transition: .5s;
 .name1{
     background-color:var(--primary-bg);
 }
+.douga,.tube{
+    height: 50%;
+    width: 75px;
+}
 .douga{
     display: flex;
+    flex-wrap: wrap;
+}
+.tube{
+    text-align: center;
+    margin: auto;
+    background-color:var(--midasi-color) ;
 }
 h1{
     color: red;
